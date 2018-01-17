@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html,body{
+  width:100%;
+  height:100%;
+}
+
+.container{
+  max-width:1000px;
+  width:100%;
+  margin:0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*--ココより細かい設定-----------------------------*/
+
+header{
+  background-color: rgba(160,180,255,1);
+  text-align: center;
+  border-bottom:solid 1px rgba(0,0,100,0.2);
+}
+
+header h1{
+  color:white;
+  margin:0 20px;
+  padding-top:20px;
+}
+
+header p{
+  color:white;
+  margin:0 20px;
+  padding:10px 0;
+}
+
+.main{
+  text-align: center;
+}
+
+.center{
+  display: inline-block;
+  width:720px;
+  margin-bottom:150px;
+}
+.box{
+  width:340px;
+  height:300px;
+  margin:30px 10px;
+  float:left;
+}
+
+.box img{
+  height:180px;
+  width:340px;
+}
+
+.box h2, .box p{
+  margin:5px 0;
+}
+
+footer{
+  text-align: center;
+  height:100px;
+  background-color: rgba(160,180,255,1);
+}
+
+footer a{
+  display: inline-block;
+  color:rgba(180,200,255,1);
+  font-weight:bold;
+  text-shadow:1px 1px 1px rgba(210,230,255,0.5);
+  font-size:16px;
+  margin-top:10px;
+  padding:5px 10px;
+  background-color: white;
+  border-radius:5px;
+  border-bottom:solid 5px rgba(210,230,255,1);
+}
+
+footer a:active{
+  transform:translateY(4px);
+  transition:0.5s;
+  border-bottom:solid 1px rgba(210,230,255,1);
+}
